@@ -57,13 +57,13 @@ def sum_array(array)
 end
 
 def add_s(array)
-  # array.map do |item|
-  #   item << "s"
-  # end
-  #   dog = array[1].chop!
-  #   array
+  array.map do |item|
+    item << "s"
+  end
+    dog = array[1].chop!
+    array
 
-    [1,2].each_with_index.collect{|element, index| element << "s"}
+    # [1,2].each_with_index.collect{|element, index| element << "s"}
     # array
     # puts "hey #{dog} and #{array}"
 end
