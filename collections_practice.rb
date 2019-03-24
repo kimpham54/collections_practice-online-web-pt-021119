@@ -63,7 +63,7 @@ def add_s(array)
   #   dog = array[1].chop!
   #   array
 
-    [1,2].each_with_index.collect{|element, index| }
+    [1,2].each_with_index.collect{|element, index| element << "s"}
     # array
     # puts "hey #{dog} and #{array}"
 end
